@@ -96,3 +96,24 @@ footer {
 .contact-card a {
     color: black;
 }
+
+
+/* Smartphones (landscape) ----------- */
+@media only screen and (max-width : 600px) {
+    .credit {
+        text-align: center;
+    }
+    .credit span:nth-child(2) {
+        float: none;
+        display: block;
+    }
+
+    .credit {
+        padding: 15px;
+    }
+
+    .credits-header {
+        text-align: center;
+    }
+}
+    
