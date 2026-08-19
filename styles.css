@@ -63,6 +63,7 @@ header {
 .content-embeds {
     display: flex;
     justify-content: center;
+    margin-bottom: 0;
 }
 .content-credits div {
     padding: 5px;
@@ -79,7 +80,7 @@ footer {
     text-align: center;
 }
 .contact-card {
-    padding: 40px;
+    padding: 10px 40px 40px;
 }
 .contact-card a {
     color: black;
