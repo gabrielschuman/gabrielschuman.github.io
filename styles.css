@@ -70,6 +70,10 @@ header {
     flex-grow: 1;
 }
 
+.content-embeds {
+    display: flex;
+    justify-content: center;
+}
 
 .content-credits div {
     padding: 5px;
