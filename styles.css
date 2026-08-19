@@ -79,7 +79,7 @@ header {
     content: "★ ";
     color: #14213d;
 }
-.credit.highlight-star span:first-child {
+.credit.highlight-star span {
     font-weight: bold;
 }
 footer {
