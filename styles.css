@@ -7,13 +7,11 @@ div ::-webkit-scrollbar-thumb {
   background-color: rgba(0, 0, 0, .5);
   -webkit-box-shadow: 0 0 1px rgba(255, 255, 255, .5);
 }
-
 * {
     margin: 0;
     font-family: 'Roboto Mono', 'sans-serif';
     box-sizing: border-box;
 }
-
 .bg {
     position: fixed;
     width: 100%;
@@ -30,25 +28,19 @@ div ::-webkit-scrollbar-thumb {
 h1 {
     font-size: 22px;
 }
-
 h2 {
     font-size: 12px;
 }
-
 .credit {
     font-size: 11px;
 }
-
 .title {
     margin: 0 auto;
     padding-top: 20px;
 }
-
 .title h1, .title h2{
     font-family: 'Roboto Mono', 'sans-serif';
 }
-
-
 .content-container {
     margin: 0 auto;
     display: flex;
@@ -56,52 +48,42 @@ h2 {
     justify-content: center;
     max-width: 750px;
 }
-
 header {
     height: 100px;
     text-align: center;
 }
-
-
 .content-container section {
-    overflow: scroll;
     flex-basis: 500px;
     margin: 10px;
     flex-grow: 1;
 }
-
+.content-credits {
+    overflow-y: auto;
+}
 .content-embeds {
     display: flex;
     justify-content: center;
 }
-
 .content-credits div {
     padding: 5px;
 }
-
 .content-credits p {
     padding-left: 5px;
     font-style: italic;
 }
-
 .credit span:nth-child(2) {
     float: right;
 }
-
 footer {
     width: 100%;
     text-align: center;
 }
-
 .contact-card {
     padding: 40px;
 }
-
 .contact-card a {
     color: black;
 }
-
-
 /* Smartphones (landscape) ----------- */
 @media only screen and (max-width : 600px) {
     .credit {
@@ -111,13 +93,10 @@ footer {
         float: none;
         display: block;
     }
-
     .credit {
         padding: 15px;
     }
-
     .credits-header {
         text-align: center;
     }
 }
-    
