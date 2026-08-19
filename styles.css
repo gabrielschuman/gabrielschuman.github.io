@@ -79,6 +79,9 @@ header {
     content: "★ ";
     color: #14213d;
 }
+.credit.highlight-star span:first-child {
+    font-weight: bold;
+}
 footer {
     width: 100%;
     text-align: center;
