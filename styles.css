@@ -51,6 +51,7 @@ h2 {
 header {
     height: 100px;
     text-align: center;
+    padding: 5px;  
 }
 .content-container section {
     flex-basis: 450px;
