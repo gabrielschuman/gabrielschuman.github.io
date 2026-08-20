@@ -53,7 +53,7 @@ header {
     text-align: center;
 }
 .content-container section {
-    flex-basis: 500px;
+    flex-basis: 460px;
     margin: 10px;
     flex-grow: 1;
 }
