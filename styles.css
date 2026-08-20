@@ -60,6 +60,9 @@ header {
 .content-credits {
     overflow-y: auto;
 }
+.content-credits .credits-body {
+    padding: 0;
+}
 .content-embeds {
     display: flex;
     justify-content: center;
