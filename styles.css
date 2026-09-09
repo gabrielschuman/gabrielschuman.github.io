@@ -78,13 +78,6 @@ header {
 .credit span:nth-child(2) {
     float: right;
 }
-.credit.highlight-star span:first-child::before {
-    content: "★ ";
-    color: #14213d;
-}
-.credit.highlight-star span {
-    font-weight: bold;
-}
 footer {
     width: 100%;
     text-align: center;
